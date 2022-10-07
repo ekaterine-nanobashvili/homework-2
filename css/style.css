@@ -1,0 +1,37 @@
+ /*header*/
+ .nav-wrapper {
+ 	width: 1440px;
+ 	height: 50px;
+ 	position: fixed;
+ }
+ .navbar {
+ 	display: inline-block;
+ 	vertical-align: middle;
+ }
+.logo {
+	display: inline-block;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FA6980;
+	vertical-align: middle;
+	padding: 18px 92px 0px 20px;
+}
+.nav-li {
+	display: inline-block;
+	padding: 18px 27px 0px 0px;
+}
+.nav-links {
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	color: #343638;
+}
+.inactive-link {
+	opacity: 50%;
+}
+.pfp {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 18px 0px 0px 13px;
+}
+/*main*/
