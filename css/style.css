@@ -35,3 +35,60 @@
 	padding: 18px 0px 0px 13px;
 }
 /*main*/
+/*trending*/
+main {
+	padding-top: 75px;
+	background: #F6F8F9;
+}
+.trending-wrapper {
+	width: 1160px;
+	height: 410px;
+	margin: auto;
+}
+.trending-header {
+	font-family: Helvetica, sans-serif;
+	color: #202124;
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 40px;
+}
+.article {
+	display: inline-block;
+	width: 360px;
+	height: 350px;
+	margin-right: 36px;
+}
+.article-last {
+	margin-right: 0px;
+}
+.article-img {
+	position: relative;
+}
+.article-title {
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.article-description {
+	padding: 66px 40px 0px 40px;
+	color: #A6ADB4;
+	font-size: 13px;
+}
+.time-container {
+	padding: 10px 0px 40px 40px;
+}
+.time {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #A6ADB4;
+	vertical-align: 3px;
+	padding-left: 10px;
+}
+.article-description-box {
+	background: #FFFFFF;
+	border-radius: 0px 0px 6px 6px;
+}
