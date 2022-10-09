@@ -3,6 +3,8 @@
  	width: 1440px;
  	height: 50px;
  	position: fixed;
+ 	z-index: 5;
+ 	background: #F6F8F9
  }
  .navbar {
  	display: inline-block;
@@ -14,12 +16,12 @@
 	font-size: 13px;
 	font-weight: bold;
 	color: #FA6980;
-	vertical-align: middle;
-	padding: 18px 92px 0px 20px;
+	vertical-align: bottom;
+	padding: 18px 92px 17px 20px;
 }
 .nav-li {
 	display: inline-block;
-	padding: 18px 27px 0px 0px;
+	padding: 20px 27px 18px 0px;
 }
 .nav-links {
 	font-family: Helvetica, sans-serif;
@@ -32,7 +34,7 @@
 .pfp {
 	display: inline-block;
 	vertical-align: middle;
-	padding: 18px 0px 0px 13px;
+	padding: 11px 0px 9px 13px;
 }
 /*main*/
 /*trending*/
@@ -92,4 +94,21 @@ main {
 .article-description-box {
 	background: #FFFFFF;
 	border-radius: 0px 0px 6px 6px;
+}
+/*happening now*/
+.happening-wrapper {
+	height: 960px;
+	width: 1160px;
+	margin: 58px auto;
+}
+.happening-header {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #202124;
+	height: 20px;
+}
+.photos-wrapper {
+	height: 900px;
+	width: 1160px;
 }
