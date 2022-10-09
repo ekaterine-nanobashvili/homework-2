@@ -112,3 +112,36 @@ main {
 	height: 900px;
 	width: 1160px;
 }
+.left-row {
+	display: inline-block;
+	width: 760px;
+	height: 900px;
+	padding-top: 40px;
+}
+.right-row {
+	width: 360px;
+	height: 896px;
+	display: inline-block;
+	padding-left: 40px;
+}
+.text-img {
+	position: relative;
+}
+.text-overlay {
+	position: absolute;
+	color: #FFFFFF;
+	top: 194px;
+	left: 308px;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.left2 {
+	padding-top: 40px;
+}
+.right {
+	padding-bottom: 102px;
+}
+.right2 {
+	padding-bottom: 62px;
+}
